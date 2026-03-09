@@ -1,35 +1,35 @@
-# SkyfectProject
+# Multiplayer Inventory System
 
-##  Rapor
+## Report
 
-    Proje raporum için mevcut repository içindeki Docs/TeknikRapor.pdf`i inceleyin.
+For the project report, please review the `Docs/TeknikRapor.pdf` file within the current repository.
 
-##  Nasıl Çalıştırılır? (Test)
+## How to Run (Testing)
 
-1.  **Projeyi Başlatma:**
-    Projeyi `git clone` ile bilgisayarınıza indirin. Ardından `Source` klasörü içerisindeki **`SkyfectProject.uproject`** dosyasına tıklayarak Unreal Engine editörünü açın.
+1.  **Starting the Project:**
+    Download the project to your computer using `git clone`. Then, open the Unreal Engine editor by clicking on the **`SkyfectProject.uproject`** file located in the `Source` folder.
 
-2.  **Multiplayer Ayarları:**
-    Play butonunun yanındaki seçeneklerden **Number of Players** değerini **3** olarak ayarlayın.
+2.  **Multiplayer Settings:**
+    From the options next to the Play button, set the **Number of Players** to **3**.
 
-3.  **Oyuna Giriş:**
-    Projeyi **PIE (Play In Editor) - New Editor Window** modunda başlatın.
+3.  **Entering the Game:**
+    Launch the project in **PIE (Play In Editor) - New Editor Window** mode.
 
-4.  **Session Kurulumu:**
-    Açılan pencerelerde (Client'larda) sol üst köşedeki butonları kullanın:
-    * **Host:** Yeni bir session başlatmak için tıklayın.
-    * **Join:** Açılan session'a katılmak için diğer pencerelerden tıklayın.
+4.  **Session Setup:**
+    Use the buttons in the top-left corner of the opened windows (Clients):
+    * **Host:** Click to start a new session.
+    * **Join:** Click from the other windows to join the hosted session.
 
 ---
 
-## Kontroller
+## Controls
 
-Oyun içi etkileşimler için aşağıdaki tuş atamaları kullanılmaktadır:
+The following key bindings are used for in-game interactions:
 
-| Tuş | Eylem | Açıklama |
+| Key | Action | Description |
 | :---: | :--- | :--- |
-| **E** | **Pickup** | Yerden eşya alma |
-| **Q** | **Drop** | Eşyayı yere bırakma |
-| **1** | **Slot 1** | Birinci envanter slotunu seçme |
-| **2** | **Slot 2** | İkinci envanter slotunu seçme |
-| **X** | **Boşalt** | Mevcut itemi hide/unhide etme |
+| **E** | **Pickup** | Pick up an item from the ground |
+| **Q** | **Drop** | Drop the item to the ground |
+| **1** | **Slot 1** | Select the first inventory slot |
+| **2** | **Slot 2** | Select the second inventory slot |
+| **X** | **Unequip** | Hide/unhide the current item |
