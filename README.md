@@ -4,6 +4,10 @@
 
 For the project report, please review the `Docs/TeknikRapor.pdf` file within the current repository.
 
+## 🎥 Gameplay Video
+- [Watch on YouTube](https://youtu.be/UUEddKC9ueg)
+
+
 ## How to Run (Testing)
 
 1.  **Starting the Project:**
